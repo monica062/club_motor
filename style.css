@@ -1,0 +1,109 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; /* Tambahkan font family */
+}
+
+/* Styling header */
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header #logo club-container img {
+    width: 100px; /* Sesuaikan ukuran logo */
+}
+
+#header #nama-alamat club-container {
+    text-align: right;
+}
+
+#header #nama-alamat club-container h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: bold; /* Tambahkan ketebalan font */
+}
+
+#header #nama-alamat club-container h4 {
+    font-size: 14px;
+}
+
+/* Styling header2 */
+#header2 {
+    background-color: #ddd;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#header2 #nama-user {
+    margin-right: auto;
+    margin-left: 20px;
+    font-weight: bold; /* Tambahkan ketebalan font */
+}
+
+#header2 a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#header2 a:hover {
+    background-color: #ccc;
+}
+
+/* Styling sidebar */
+#sidebar {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Tambahkan efek bayangan */
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar ul li {
+    margin-bottom: 10px;
+}
+
+#sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Styling content container */
+#content-container {
+    margin-left: 220px; /* Sesuaikan dengan lebar sidebar */
+    padding: 20px;
+    padding-top: 100px; /* Pastikan konten tidak tertutup oleh header */
+}
+
+/* Styling footer */
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px; /* Sesuaikan ukuran font */
+}
